@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=+3.3 Pin=C74-2
+Removed Pin From Net: NetName=+3.3 Pin=C75-2
+Removed Pin From Net: NetName=+3.3 Pin=L6-1
+Removed Pin From Net: NetName=+3.3 Pin=R44-2
+Added Pin To Net: NetName=+3.3_C Pin=C74-2
+Added Pin To Net: NetName=+3.3_C Pin=C75-2
+Added Pin To Net: NetName=+3.3_C Pin=L6-1
+Added Pin To Net: NetName=+3.3_C Pin=R44-2
