@@ -201,6 +201,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VVCBVAES
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Buck_converter_48_12V\Design Rule Check - DC_DC_Buck_Controlled_PCB.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=Title
 Value=Power Circuit
