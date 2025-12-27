@@ -414,6 +414,13 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
-  "text_variables": {}
+  "sheets": [
+    [
+      "46fc427b-865b-47b9-b740-a80317cbe8b8",
+      "Root"
+    ]
+  ],
+  "text_variables": {
+    "Project_Name": "MCU_Data_Logger_With_Memory_and_Clock"
+  }
 }
