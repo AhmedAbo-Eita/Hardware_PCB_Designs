@@ -13,7 +13,7 @@ Each folder contains a standalone hardware project:
 
 ### 🔹 **BLDC_Motor_Driver**
 - BLDC motor driver board design
-- Includes a KiCad project with **STM32F103**
+- Includes a KiCad project 
 - Focus on gate driver and power stage for brushless DC motor control
 
 **Path:** `BLDC_Motor_Driver/BLDC_Motor_Driver` :contentReference[oaicite:2]{index=2}
