@@ -11,16 +11,16 @@ This repo showcases a collection of my **printed circuit board (PCB) designs**, 
 
 Each folder contains a standalone hardware project:
 
-### 🔹 **BLDC_Motor_Driver**
+### 🔹 **BLDC_Motor_Driver** - inprogress
 - BLDC motor driver board design
-- Includes a KiCad project 
+- Includes a Altium project 
 - Focus on gate driver and power stage for brushless DC motor control
 
 **Path:** `BLDC_Motor_Driver/BLDC_Motor_Driver` :contentReference[oaicite:2]{index=2}
 
 ---
 
-### 🔹 **IOT_Board_Based_On_ESP**
+### 🔹 **IOT_Board_Based_On_ESP** - inprogress
 - Internet of Things (IoT) board based on an **ESP microcontroller**
 - Designed for IoT applications requiring wireless connectivity
 
@@ -28,7 +28,7 @@ Each folder contains a standalone hardware project:
 
 ---
 
-### 🔹 **MCU_Data_Logger**
+### 🔹 **MCU_Data_Logger** - done
 - MCU-based data logging hardware
 - A system for capturing and storing sensor data
 
@@ -36,7 +36,7 @@ Each folder contains a standalone hardware project:
 
 ---
 
-### 🔹 **STM32F103C8T6_Dev_Board**
+### 🔹 **STM32F103C8T6_Dev_Board** - done
 - Custom development board for **STM32F103C8T6**
 - Includes power circuitry, debug interface, and I/O breakout
 
@@ -44,7 +44,7 @@ Each folder contains a standalone hardware project:
 
 ---
 
-### 🔹 **Synchrouns_Buck_Converter_48V_12V**
+### 🔹 **Synchrouns_Buck_Converter_48V_12V** - done
 - Synchronous buck DC-DC converter
 - Converts **48 V to 12 V** with high efficiency
 - Suitable for industrial and embedded power applications
