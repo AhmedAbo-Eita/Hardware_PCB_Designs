@@ -31,4 +31,3 @@ The microcontroller acts as the I2C Master, coordinating data transfers between 
 
 ## 📸 Board 3D view
 ![Top View Layout](Pics/Layout_3D.jpg)
-![Top View Layout](Pics/Layout_3D_Iso.jpg)
