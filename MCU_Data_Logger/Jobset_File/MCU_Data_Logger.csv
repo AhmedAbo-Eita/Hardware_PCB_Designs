@@ -1,0 +1,17 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+BT1,1,Battery,,,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~
+"C1,C2",2,22pF,,,,Capacitor_SMD:C_0805_2012Metric,~
+"C3,C4",2,0.1uF,,,,Capacitor_SMD:C_0805_2012Metric,~
+C5,1,100nF,,,,Capacitor_SMD:C_0805_2012Metric,~
+"D1,D2",2,LED,,,,LED_SMD:LED_0805_2012Metric,~
+"J1,J2",2,Conn_01x04_Pin,,,,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,~
+J3,1,Conn_01x09_Pin,,,,Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical,~
+J4,1,Conn_02x03_Odd_Even,,,,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,~
+"R1,R2,R7",3,10K,,,,Resistor_SMD:R_0805_2012Metric,~
+"R3,R4",2,330,,,,Resistor_SMD:R_0805_2012Metric,~
+"R5,R6",2,4.7K,,,,Resistor_SMD:R_0805_2012Metric,~
+"U1,U2",2,24LC1025,,,,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf
+U3,1,DS1337S_,,,,Footprints:SOIC127P600X175-8N,
+U4,1,ATMEGA328P-AU,,,,Footprints:QFP80P900X900X120-32N,
+Y1,1,16MHz,,,,Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm,~
+Y2,1,32.768KHz,,,,Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm,~
