@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Mixed_Signal_Board_Footprint") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Mixed_Signal_Board_Footprint") (options "") (descr ""))
+)

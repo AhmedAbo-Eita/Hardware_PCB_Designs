@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "HT7533-1") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Mixed_Signal_Board_symbols/HT7533-1.kicad_sym") (options "") (descr ""))
+)

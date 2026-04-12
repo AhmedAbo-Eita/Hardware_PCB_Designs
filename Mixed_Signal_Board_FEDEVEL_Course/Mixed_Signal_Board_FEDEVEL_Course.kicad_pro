@@ -370,12 +370,54 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DCR",
+          "name": "DCR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC_PN",
+          "name": "LCSC_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating_Temperature",
+          "name": "Operating_Temperature",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Assembled",
+          "name": "Assembled",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -389,6 +431,21 @@
       "field_names": [
         {
           "name": "Operating_Temperature",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "LCSC_PN",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Assembled",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "MP",
           "url": false,
           "visible": false
         }
@@ -426,7 +483,7 @@
         "uuid": "275c6be1-327e-4739-aa63-a3cb51a55660"
       }
     ],
-    "used_designators": "C1,C101,#PWR1-4,FB1",
+    "used_designators": "R1,U1,C1-2,C102-103,#PWR5-10",
     "variants": []
   },
   "sheets": [
