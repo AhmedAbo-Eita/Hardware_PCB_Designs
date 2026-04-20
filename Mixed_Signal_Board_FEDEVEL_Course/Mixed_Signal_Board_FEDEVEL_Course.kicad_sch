@@ -36,6 +36,20 @@
 		)
 		(uuid "ad00a100-4a74-432d-addf-2aa6b628395b")
 	)
+	(text "[1] Power"
+		(exclude_from_sim no)
+		(at 85.09 88.9 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(italic yes)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "d5359d2d-efe3-43a9-8346-f581f145ac0f")
+	)
 	(sheet
 		(at 63.5 64.77)
 		(size 41.91 48.26)
@@ -78,6 +92,52 @@
 			(project "Mixed_Signal_Board_FEDEVEL_Course"
 				(path "/275c6be1-327e-4739-aa63-a3cb51a55660"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 64.77)
+		(size 43.18 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "cc23388a-97b6-4b00-a27f-8760e9b20e71")
+		(property "Sheetname" "Mixed_Signal_Board_MCU"
+			(at 152.4 64.0584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mixed_Signal_Board_MCU.kicad_sch"
+			(at 152.4 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mixed_Signal_Board_FEDEVEL_Course"
+				(path "/275c6be1-327e-4739-aa63-a3cb51a55660"
+					(page "3")
 				)
 			)
 		)

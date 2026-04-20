@@ -492,7 +492,7 @@
         "uuid": "275c6be1-327e-4739-aa63-a3cb51a55660"
       }
     ],
-    "used_designators": "U2,L1,#PWR11-16,C1,C3-4,C104,R1-2,R102",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -503,6 +503,10 @@
     [
       "052efd40-4597-4b71-9bab-84fc4542e4d9",
       "Mixed_Signal_Board_Power"
+    ],
+    [
+      "cc23388a-97b6-4b00-a27f-8760e9b20e71",
+      "Mixed_Signal_Board_MCU"
     ]
   ],
   "text_variables": {
