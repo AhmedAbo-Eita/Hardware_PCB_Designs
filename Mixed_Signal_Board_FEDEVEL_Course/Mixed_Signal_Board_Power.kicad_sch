@@ -1848,7 +1848,7 @@
 		)
 		(uuid "8888f0bc-860d-4526-9a8e-0896754bd6eb")
 	)
-	(text "Indecation Leds\n"
+	(text "Indicator Leds\n"
 		(exclude_from_sim no)
 		(at 212.344 89.154 0)
 		(effects
@@ -3413,10 +3413,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3e6fe24e-279f-4338-aff8-de40a7b62034")
-		(property "Reference" "D3"
-			(at 223.52 71.4374 90)
+		(property "Reference" "D102"
+			(at 221.742 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3534,7 +3533,7 @@
 		(instances
 			(project "Mixed_Signal_Board_FEDEVEL_Course"
 				(path "/275c6be1-327e-4739-aa63-a3cb51a55660/052efd40-4597-4b71-9bab-84fc4542e4d9"
-					(reference "D3")
+					(reference "D102")
 					(unit 1)
 				)
 			)
@@ -3880,10 +3879,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "559502fd-0892-4415-abd6-14196267678a")
-		(property "Reference" "D1"
-			(at 205.74 71.4374 90)
+		(property "Reference" "D100"
+			(at 203.962 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4001,7 +3999,7 @@
 		(instances
 			(project "Mixed_Signal_Board_FEDEVEL_Course"
 				(path "/275c6be1-327e-4739-aa63-a3cb51a55660/052efd40-4597-4b71-9bab-84fc4542e4d9"
-					(reference "D1")
+					(reference "D100")
 					(unit 1)
 				)
 			)
@@ -4787,7 +4785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8339dae9-0a63-40e3-a24d-d93f4240a31b")
-		(property "Reference" "R1"
+		(property "Reference" "R100"
 			(at 204.47 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4895,7 +4893,7 @@
 		(instances
 			(project "Mixed_Signal_Board_FEDEVEL_Course"
 				(path "/275c6be1-327e-4739-aa63-a3cb51a55660/052efd40-4597-4b71-9bab-84fc4542e4d9"
-					(reference "R1")
+					(reference "R100")
 					(unit 1)
 				)
 			)
@@ -5225,7 +5223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1f726ca-1ba2-44a4-a31b-7a11e336e15d")
-		(property "Reference" "R2"
+		(property "Reference" "R103"
 			(at 213.36 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5333,7 +5331,7 @@
 		(instances
 			(project "Mixed_Signal_Board_FEDEVEL_Course"
 				(path "/275c6be1-327e-4739-aa63-a3cb51a55660/052efd40-4597-4b71-9bab-84fc4542e4d9"
-					(reference "R2")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -5850,10 +5848,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ad719630-0fd2-4fb0-9ad5-f252ec630af0")
-		(property "Reference" "D2"
-			(at 214.63 71.4374 90)
+		(property "Reference" "D101"
+			(at 212.598 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5971,7 +5968,7 @@
 		(instances
 			(project "Mixed_Signal_Board_FEDEVEL_Course"
 				(path "/275c6be1-327e-4739-aa63-a3cb51a55660/052efd40-4597-4b71-9bab-84fc4542e4d9"
-					(reference "D2")
+					(reference "D101")
 					(unit 1)
 				)
 			)
@@ -6541,7 +6538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d53ef8c4-e1b4-4964-a848-fad99402ca5d")
-		(property "Reference" "R3"
+		(property "Reference" "R104"
 			(at 222.25 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6649,7 +6646,7 @@
 		(instances
 			(project "Mixed_Signal_Board_FEDEVEL_Course"
 				(path "/275c6be1-327e-4739-aa63-a3cb51a55660/052efd40-4597-4b71-9bab-84fc4542e4d9"
-					(reference "R3")
+					(reference "R104")
 					(unit 1)
 				)
 			)
