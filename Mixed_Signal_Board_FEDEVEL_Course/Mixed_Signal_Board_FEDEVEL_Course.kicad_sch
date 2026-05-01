@@ -36,6 +36,20 @@
 		)
 		(uuid "ad00a100-4a74-432d-addf-2aa6b628395b")
 	)
+	(text "[2] MCU\n"
+		(exclude_from_sim no)
+		(at 172.72 87.63 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(italic yes)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "cba6c373-e7a9-4ba8-8a52-aa6189003274")
+	)
 	(text "[1] Power"
 		(exclude_from_sim no)
 		(at 85.09 88.9 0)
