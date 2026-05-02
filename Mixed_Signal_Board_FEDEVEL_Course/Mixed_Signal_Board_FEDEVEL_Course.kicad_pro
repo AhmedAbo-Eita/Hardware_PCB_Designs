@@ -492,7 +492,7 @@
         "uuid": "275c6be1-327e-4739-aa63-a3cb51a55660"
       }
     ],
-    "used_designators": "Y1,R1,R209-210,#PWR28-29,U1,C1,C213",
+    "used_designators": "U1,#PWR30-38,R1,C214-215,C302-307",
     "variants": []
   },
   "sheets": [
@@ -507,6 +507,10 @@
     [
       "cc23388a-97b6-4b00-a27f-8760e9b20e71",
       "Mixed_Signal_Board_MCU"
+    ],
+    [
+      "45e74f2c-55e5-4c86-aacc-74e9acddcbc3",
+      "Mixed_Signal_Board_ADC"
     ]
   ],
   "text_variables": {

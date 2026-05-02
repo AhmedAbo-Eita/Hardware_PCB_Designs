@@ -5334,6 +5334,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 92.71) (xy 130.81 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15da8b95-fa78-46bd-8214-8d45678073f9")
+	)
+	(wire
+		(pts
 			(xy 82.55 86.36) (xy 78.74 86.36)
 		)
 		(stroke
@@ -5371,6 +5381,16 @@
 			(type default)
 		)
 		(uuid "1caeae80-e9e7-487a-9771-d6e9245b92e8")
+	)
+	(wire
+		(pts
+			(xy 128.27 97.79) (xy 130.81 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d1d043b-3ff9-4852-8f32-7cc4c0543601")
 	)
 	(wire
 		(pts
@@ -5461,6 +5481,16 @@
 			(type default)
 		)
 		(uuid "27d2e1e8-9428-433f-9f4d-b4ea14882049")
+	)
+	(wire
+		(pts
+			(xy 128.27 90.17) (xy 130.81 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28100280-cc70-4bc1-b9ce-ed2ca020e9a8")
 	)
 	(wire
 		(pts
@@ -5701,6 +5731,16 @@
 			(type default)
 		)
 		(uuid "58bbb79a-7027-4aea-9d0c-b6c1d0f230ec")
+	)
+	(wire
+		(pts
+			(xy 81.28 110.49) (xy 92.71 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aeb046c-b69e-4240-8296-e9a12dc9bc43")
 	)
 	(wire
 		(pts
@@ -6114,6 +6154,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 107.95) (xy 92.71 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a06db4e5-55fd-4545-b831-41eb486a1ba5")
+	)
+	(wire
+		(pts
 			(xy 232.41 86.36) (xy 232.41 87.63)
 		)
 		(stroke
@@ -6211,6 +6261,26 @@
 			(type default)
 		)
 		(uuid "b3c3a803-3652-45de-9353-31a67d3e895d")
+	)
+	(wire
+		(pts
+			(xy 81.28 105.41) (xy 92.71 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a21e11-6ac1-485f-a719-96e10c03b5d4")
+	)
+	(wire
+		(pts
+			(xy 128.27 95.25) (xy 130.81 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b85ddffc-7db9-4a9d-8587-77a024ff672d")
 	)
 	(wire
 		(pts
@@ -6612,6 +6682,16 @@
 		)
 		(uuid "fcf45e0e-a0a2-47fb-84cc-398c32b1a308")
 	)
+	(wire
+		(pts
+			(xy 87.63 97.79) (xy 92.71 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe65a457-43ef-497f-9cfa-99d77356daaf")
+	)
 	(label "SWCLK"
 		(at 261.62 134.62 0)
 		(effects
@@ -6621,6 +6701,16 @@
 			(justify left bottom)
 		)
 		(uuid "166124a9-fdd1-4bc8-8950-12c823cb2025")
+	)
+	(label "SWCLK"
+		(at 130.81 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e1e8c3b-bfd1-4a95-9c04-d27ffa05cff2")
 	)
 	(label "TIM4_CH2"
 		(at 27.94 168.91 0)
@@ -6642,6 +6732,16 @@
 		)
 		(uuid "22a59e68-4126-4010-852a-934c10b91989")
 	)
+	(label "USB_N"
+		(at 130.81 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3632132a-70d2-4426-8a6c-26bd91eba95f")
+	)
 	(label "TIM4_CH3"
 		(at 27.94 173.99 0)
 		(effects
@@ -6651,6 +6751,16 @@
 			(justify left bottom)
 		)
 		(uuid "363cba97-f0d1-4a8a-b2d0-05ca53597f6b")
+	)
+	(label "SWO"
+		(at 87.63 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cc47990-c108-4257-ae2d-e801858beed0")
 	)
 	(label "NRST"
 		(at 86.36 62.23 0)
@@ -6702,6 +6812,36 @@
 		)
 		(uuid "89995e3f-beea-471f-ad4d-35462f7634c1")
 	)
+	(label "SWDIO"
+		(at 130.81 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0a7749c-6968-447d-9d46-830785e1aa92")
+	)
+	(label "USB_P"
+		(at 130.81 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b704d0ca-9221-45ab-bf98-c9a01cfcd6d5")
+	)
+	(label "TIM4_CH2"
+		(at 81.28 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4c1bff9-82d9-424b-90ed-6a3549615321")
+	)
 	(label "USB_Conn_P"
 		(at 214.63 95.25 0)
 		(effects
@@ -6752,6 +6892,16 @@
 		)
 		(uuid "ecb3c6ad-f99b-4022-8637-e2418f6f4387")
 	)
+	(label "TIM4_CH3"
+		(at 81.28 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fafe197d-de58-4601-af04-b8b3e608882d")
+	)
 	(label "NRST"
 		(at 179.07 137.16 0)
 		(effects
@@ -6761,6 +6911,16 @@
 			(justify left bottom)
 		)
 		(uuid "fb48a928-4885-4d98-862e-96433b11472b")
+	)
+	(label "TIM4_CH1"
+		(at 81.28 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc93889e-f6b4-4560-acdd-b74163a1390b")
 	)
 	(symbol
 		(lib_id "power:GND")
