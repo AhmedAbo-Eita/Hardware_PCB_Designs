@@ -64,6 +64,20 @@
 		)
 		(uuid "d5359d2d-efe3-43a9-8346-f581f145ac0f")
 	)
+	(text "[3] ADC\n"
+		(exclude_from_sim no)
+		(at 105.41 133.35 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(italic yes)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "dd43ee99-52f6-48c0-8510-aad323e1570e")
+	)
 	(sheet
 		(at 85.09 53.34)
 		(size 41.91 48.26)
@@ -146,6 +160,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SPI_CS" input
+			(at 127 115.57 0)
+			(uuid "5cce8d8e-ed8a-424e-8e88-fe1b7f2afefc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_CLK" input
+			(at 127 120.65 0)
+			(uuid "0fff7968-eeec-4484-a508-a51ca0b26e41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MISO" output
+			(at 127 124.46 0)
+			(uuid "ee921695-5df7-4c6c-abea-d11d72a7cc38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
