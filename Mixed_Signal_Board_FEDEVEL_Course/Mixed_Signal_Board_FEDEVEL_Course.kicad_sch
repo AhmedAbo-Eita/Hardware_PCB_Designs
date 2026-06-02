@@ -22,6 +22,20 @@
 		)
 		(uuid "3be1a924-f4d0-4dc3-931f-7a74188d284c")
 	)
+	(text "[3] DAC\n"
+		(exclude_from_sim no)
+		(at 195.58 133.35 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(italic yes)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "942ae2b3-a6fa-4657-b8f2-5454aa7f5cad")
+	)
 	(text "Mixed Signal Board"
 		(exclude_from_sim no)
 		(at 144.78 35.56 0)
@@ -242,6 +256,52 @@
 			(project "Mixed_Signal_Board_FEDEVEL_Course"
 				(path "/275c6be1-327e-4739-aa63-a3cb51a55660"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 110.49)
+		(size 43.18 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "eb5ea575-96b8-4d86-818a-9af376317eae")
+		(property "Sheetname" "Mixed_Signal_Board_DAC"
+			(at 173.99 109.7784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mixed_Signal_Board_DAC.kicad_sch"
+			(at 173.99 156.7946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mixed_Signal_Board_FEDEVEL_Course"
+				(path "/275c6be1-327e-4739-aa63-a3cb51a55660"
+					(page "5")
 				)
 			)
 		)
