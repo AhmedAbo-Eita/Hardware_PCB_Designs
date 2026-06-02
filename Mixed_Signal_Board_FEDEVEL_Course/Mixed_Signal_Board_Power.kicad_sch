@@ -6089,7 +6089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8339dae9-0a63-40e3-a24d-d93f4240a31b")
-		(property "Reference" "R100"
+		(property "Reference" "R101"
 			(at 204.47 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6197,7 +6197,7 @@
 		(instances
 			(project "Mixed_Signal_Board_FEDEVEL_Course"
 				(path "/275c6be1-327e-4739-aa63-a3cb51a55660/052efd40-4597-4b71-9bab-84fc4542e4d9"
-					(reference "R100")
+					(reference "R101")
 					(unit 1)
 				)
 			)

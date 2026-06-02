@@ -2372,125 +2372,60 @@
 		)
 		(uuid "ff599e3e-ab7e-4e28-9aa4-247314c114f1")
 	)
-	(global_label "SPI2_SCK"
-		(shape input)
-		(at 58.42 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "22459050-faa5-47dd-9f72-f95c0756f723")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.4239 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "DAC_NLDAC"
-		(shape input)
-		(at 58.42 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4f9ad335-70c4-4fcf-980c-f965106626d2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.8514 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "DAC_NCLR"
-		(shape input)
-		(at 58.42 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "86b65e18-5ed9-4187-a7e5-cecb726d5dc0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.94 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SPI2_MOSI"
-		(shape input)
-		(at 58.42 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a5e130c4-bf19-4b4d-9bcd-a3a393af7d88")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.2382 100.2506 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SPI2_NSS"
+	(hierarchical_label "SPI2_NSS"
 		(shape input)
 		(at 58.42 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "b770fb8e-3730-42b2-96c5-e069523259b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.4239 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+		(uuid "188ce810-7d5f-4e13-9fbc-7651f156adbb")
+	)
+	(hierarchical_label "DAC_NCLR"
+		(shape input)
+		(at 58.42 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "48272c47-20e2-45b9-907d-06e18895320c")
+	)
+	(hierarchical_label "SPI2_MOSI"
+		(shape input)
+		(at 58.42 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "816248b1-355e-4c16-9267-8fc7d82c4f24")
+	)
+	(hierarchical_label "SPI2_SCK"
+		(shape input)
+		(at 58.42 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "910f5aed-199e-466f-83e5-0ed8da2ebe64")
+	)
+	(hierarchical_label "DAC_NLDAC"
+		(shape input)
+		(at 58.42 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e88c80fe-26c1-4889-b7fd-4e890738cbb0")
 	)
 	(symbol
 		(lib_id "Device:C")
