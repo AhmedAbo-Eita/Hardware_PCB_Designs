@@ -4,4 +4,5 @@
 	(lib (name "X322516MLB4SI") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Mixed_Signal_Board_symbols/X322516MLB4SI.kicad_sym") (options "") (descr ""))
 	(lib (name "ADC141S626CIMM_NOPB") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Mixed_Signal_Board_symbols/ADC141S626CIMM_NOPB.kicad_sym") (options "") (descr ""))
 	(lib (name "REF3033AIDBZT") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Mixed_Signal_Board_symbols/REF3033AIDBZT.kicad_sym") (options "") (descr ""))
+	(lib (name "PESD3V3L1BA,115") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Mixed_Signal_Board_symbols/PESD3V3L1BA,115.kicad_sym") (options "") (descr ""))
 )

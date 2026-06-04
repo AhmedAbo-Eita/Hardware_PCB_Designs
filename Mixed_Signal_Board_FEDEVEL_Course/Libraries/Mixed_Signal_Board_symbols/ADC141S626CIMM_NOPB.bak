@@ -33,7 +33,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ADC141S626CIMM_NOPB:SOP50P490X110-10N"
+		(property "Footprint" "Mixed_Signal_Board_Footprint:SOP50P490X110-10N"
 			(at -1.016 -0.508 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45,7 +45,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C206494.pdf?spm=wm.sxq.inf.ggs___wm.ssy.bg.0.xh&lcsc_vid=FlheUlVQElJYV1ICRVgMVFxfFFIKVlYCEQdYU1ZfRgcxVlNRQFdXU1BVRlhWUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRlddU0oOAwwC"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -150,6 +150,28 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "LCSC_PN" "C206494"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembled" "Yes"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(symbol "ADC141S626CIMM_NOPB_0_0"

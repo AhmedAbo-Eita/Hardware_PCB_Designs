@@ -4772,6 +4772,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 148.59 115.57)
@@ -4786,7 +4901,7 @@
 		(uuid "54710646-04db-4f11-888c-83d67781494c")
 	)
 	(rectangle
-		(start 35.56 72.39)
+		(start 27.94 72.39)
 		(end 80.01 100.33)
 		(stroke
 			(width 0)
@@ -4975,12 +5090,6 @@
 		(uuid "f6217bf7-a35b-421d-9e8a-e1912dcc4f7c")
 	)
 	(junction
-		(at 209.55 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07d03664-453f-4aaa-a52c-a3cbc3a93e7e")
-	)
-	(junction
 		(at 134.62 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5095,12 +5204,6 @@
 		(uuid "851b7c34-2c08-49e6-80a3-52fe52827087")
 	)
 	(junction
-		(at 215.9 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94a7da63-7853-4d48-94a4-3afdbdee1364")
-	)
-	(junction
 		(at 199.39 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5129,6 +5232,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9195312-81da-4bb3-a300-6fd394dc588f")
+	)
+	(junction
+		(at 215.9 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2d42274-9f33-40af-b6fe-9662552bbec8")
 	)
 	(junction
 		(at 105.41 44.45)
@@ -5372,16 +5481,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 137.16) (xy 247.5994 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a3f6c4c-a3bf-41ee-9cb9-0a8bd004ae67")
-	)
-	(wire
-		(pts
 			(xy 90.17 115.57) (xy 92.71 115.57)
 		)
 		(stroke
@@ -5449,6 +5548,16 @@
 			(type default)
 		)
 		(uuid "12518831-a4a0-4ef6-b70b-4902a767014d")
+	)
+	(wire
+		(pts
+			(xy 205.74 78.74) (xy 205.74 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14be4342-b682-460f-b795-ac7ff3176011")
 	)
 	(wire
 		(pts
@@ -6002,6 +6111,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 137.16) (xy 247.65 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f751242-a46c-4684-b09b-cc6c4bebc1eb")
+	)
+	(wire
+		(pts
 			(xy 62.23 86.36) (xy 71.12 86.36)
 		)
 		(stroke
@@ -6089,16 +6208,6 @@
 			(type default)
 		)
 		(uuid "7be42de5-3ae2-4f83-8c9d-cb194ef534a4")
-	)
-	(wire
-		(pts
-			(xy 209.55 78.74) (xy 213.36 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c536e7e-f798-4ffe-ba7a-5bce3a17f4f0")
 	)
 	(wire
 		(pts
@@ -6562,7 +6671,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 78.74) (xy 209.55 80.01)
+			(xy 213.36 78.74) (xy 213.36 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6752,7 +6861,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.2194 137.16) (xy 261.62 137.16)
+			(xy 255.27 137.16) (xy 261.62 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6829,16 +6938,6 @@
 			(type default)
 		)
 		(uuid "fb417c22-9681-497b-87dd-10dd5be28bea")
-	)
-	(wire
-		(pts
-			(xy 205.74 78.74) (xy 209.55 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb8b73d7-0f45-47e3-8a1c-f09c6adc327a")
 	)
 	(wire
 		(pts
@@ -7413,7 +7512,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 251.4094 137.16 270)
+		(at 251.46 137.16 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7423,7 +7522,7 @@
 		(dnp no)
 		(uuid "06063f5f-ce8c-40ed-ab12-3ce40b7ca267")
 		(property "Reference" "R204"
-			(at 246.3294 135.89 90)
+			(at 246.38 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7433,7 +7532,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 256.4894 135.89 90)
+			(at 256.54 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7443,7 +7542,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 251.4094 135.382 90)
+			(at 251.46 135.382 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7454,7 +7553,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C108661.pdf"
-			(at 251.4094 137.16 0)
+			(at 251.46 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7465,7 +7564,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 251.4094 137.16 0)
+			(at 251.46 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7476,7 +7575,7 @@
 			)
 		)
 		(property "LCSC_PN" "C108661"
-			(at 251.4094 137.16 0)
+			(at 251.46 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7487,7 +7586,7 @@
 			)
 		)
 		(property "MP" "RC0603FR-0733RL"
-			(at 251.4094 137.16 0)
+			(at 251.46 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7498,7 +7597,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 251.4094 137.16 0)
+			(at 251.46 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7509,7 +7608,7 @@
 			)
 		)
 		(property "Operating_Temperature" "155"
-			(at 251.4094 137.16 0)
+			(at 251.46 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8626,6 +8725,17 @@
 				)
 			)
 		)
+		(property "Operating_Temperature" "125"
+			(at 199.39 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7b1eadc3-a3d5-4703-a4b2-730ea1ae8a08")
 		)
@@ -8989,7 +9099,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4cd7d2aa-4b55-404f-85f0-a51455803120")
-		(property "Reference" "C208"
+		(property "Reference" "C214"
 			(at 45.72 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9095,7 +9205,7 @@
 		(instances
 			(project "Mixed_Signal_Board_FEDEVEL_Course"
 				(path "/275c6be1-327e-4739-aa63-a3cb51a55660/cc23388a-97b6-4b00-a27f-8760e9b20e71"
-					(reference "C208")
+					(reference "C214")
 					(unit 1)
 				)
 			)
@@ -9193,6 +9303,17 @@
 			)
 		)
 		(property "Assembled" "Yes"
+			(at 224.79 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating_Temperature" "125"
 			(at 224.79 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -10335,6 +10456,17 @@
 				)
 			)
 		)
+		(property "Operating_Temperature" ""
+			(at 233.68 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0f5a63e3-f5a3-4317-8ca1-f5e800399c2f")
 		)
@@ -11172,6 +11304,17 @@
 				)
 			)
 		)
+		(property "Operating_Temperature" "125"
+			(at 215.9 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8161d10c-3e9b-4a4a-95b0-ad1cfdd6ac72")
 		)
@@ -11804,6 +11947,84 @@
 			(project "Mixed_Signal_Board_FEDEVEL_Course"
 				(path "/275c6be1-327e-4739-aa63-a3cb51a55660/cc23388a-97b6-4b00-a27f-8760e9b20e71"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 123.19 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c05ca249-3e95-465c-b18e-9c241dd87499")
+		(property "Reference" "#FLG07"
+			(at 123.19 42.545 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 123.19 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 123.19 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "135bd5c0-a067-47b2-8e45-4accb77cd4f0")
+		)
+		(instances
+			(project "Mixed_Signal_Board_FEDEVEL_Course"
+				(path "/275c6be1-327e-4739-aa63-a3cb51a55660/cc23388a-97b6-4b00-a27f-8760e9b20e71"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -12664,7 +12885,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 80.01 0)
+		(at 213.36 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12674,7 +12895,7 @@
 		(dnp no)
 		(uuid "e0cffc62-1712-45a1-80bf-67d62cd9a17d")
 		(property "Reference" "#PWR080"
-			(at 209.55 86.36 0)
+			(at 213.36 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12685,7 +12906,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 84.074 0)
+			(at 213.36 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12695,7 +12916,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 80.01 0)
+			(at 213.36 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12706,7 +12927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 80.01 0)
+			(at 213.36 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12717,7 +12938,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 80.01 0)
+			(at 213.36 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13559,6 +13780,83 @@
 			(project "Mixed_Signal_Board_FEDEVEL_Course"
 				(path "/275c6be1-327e-4739-aa63-a3cb51a55660/cc23388a-97b6-4b00-a27f-8760e9b20e71"
 					(reference "C204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f04ffc29-ced2-45ca-a496-2ecf4464b7ea")
+		(property "Reference" "#PWR086"
+			(at 205.74 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 84.074 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d31a5c6-504c-4027-9b00-2ca5c421c68c")
+		)
+		(instances
+			(project "Mixed_Signal_Board_FEDEVEL_Course"
+				(path "/275c6be1-327e-4739-aa63-a3cb51a55660/cc23388a-97b6-4b00-a27f-8760e9b20e71"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)

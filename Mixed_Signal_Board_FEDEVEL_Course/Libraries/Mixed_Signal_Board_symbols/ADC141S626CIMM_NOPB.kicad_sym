@@ -330,7 +330,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 5.08 25.4 270)
 				(length 5.08)
 				(name "VLO"
@@ -348,7 +348,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -2.54 25.4 270)
 				(length 5.08)
 				(name "VA"
