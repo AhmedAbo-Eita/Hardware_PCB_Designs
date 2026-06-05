@@ -847,7 +847,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PhilsLab-KiCad-Symbols:DAC7563SDGSR"
+		(symbol "PESD3V3L1BA,115:DAC7563SDGSR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -856,8 +856,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 11.43 12.7 0)
+			(property "Reference" "U400"
+				(at -10.16 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -866,8 +866,8 @@
 					)
 				)
 			)
-			(property "Value" "PhilsLab-KiCad-Symbols_DAC7563SDGSR"
-				(at 8.89 -12.7 0)
+			(property "Value" "DAC7563SDGSR"
+				(at 10.16 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -876,7 +876,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -887,7 +887,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C601656.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=QwcKBVRWRQINX1VTQ1FZAVwEEVEIXgYDQFZcAlAET1kxVlNeR1JbX1ZSRVFcUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRlBaUVFfWQkaCgg%3D"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -898,7 +898,51 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "10us 2.7V~5.5V 0.5LSB VSSOP-10-0.5mm Digital to Analog Converters (DAC) RoHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Operating_Temperature" "125"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC_PN" "C601656"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Assembled" "Yes"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MP" "DAC7563SDGSR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4734,7 +4778,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PhilsLab-KiCad-Symbols:DAC7563SDGSR")
+		(lib_id "PESD3V3L1BA,115:DAC7563SDGSR")
 		(at 95.25 107.95 0)
 		(mirror y)
 		(unit 1)

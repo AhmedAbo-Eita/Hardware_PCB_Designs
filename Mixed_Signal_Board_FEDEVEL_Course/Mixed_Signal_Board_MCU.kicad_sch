@@ -712,7 +712,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4321,7 +4321,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -7.62 90)
 					(length 2.54)
 					(name ""
@@ -4357,7 +4357,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -7.62 90)
 					(length 2.54)
 					(hide yes)
@@ -8657,7 +8657,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BLDC_Motor_Driver_Components_Footprint:DIODE_PESD3V3L1BA_115_NEX"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 199.39 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -9245,7 +9245,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BLDC_Motor_Driver_Components_Footprint:DIODE_PESD3V3L1BA_115_NEX"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 224.79 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -10388,7 +10388,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BLDC_Motor_Driver_Components_Footprint:DIODE_PESD3V3L1BA_115_NEX"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 233.68 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11236,7 +11236,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BLDC_Motor_Driver_Components_Footprint:DIODE_PESD3V3L1BA_115_NEX"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 215.9 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11571,7 +11571,7 @@
 		(pin "B12"
 			(uuid "cb7300f0-56a5-4fad-a84f-41ceb90ed67d")
 		)
-		(pin "S1"
+		(pin "SH"
 			(uuid "b247e01a-140b-4de5-95f7-9dfd719fe363")
 		)
 		(pin "A1"
