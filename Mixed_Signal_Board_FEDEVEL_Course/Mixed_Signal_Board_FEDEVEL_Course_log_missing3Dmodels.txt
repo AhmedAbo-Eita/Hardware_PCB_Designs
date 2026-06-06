@@ -1,0 +1,1 @@
+[('D1', 'C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\LED_SMD.3dshapes\\LED_Avago_PLCC4_3.2x2.8mm_CW.step')]

@@ -1,0 +1,10 @@
+### Missing 3D models - created on 2026-06-06 21:33
+### Printed by checking_3D_models plugin
+Board file: D:\RnD\Hardware_PCB_Designs\Mixed_Signal_Board_FEDEVEL_Course\Mixed_Signal_Board_FEDEVEL_Course.kicad_pcb
+3D missing models written to:
+D:\RnD\Hardware_PCB_Designs\Mixed_Signal_Board_FEDEVEL_Course\Mixed_Signal_Board_FEDEVEL_Course_missing3Dmodels.txt
+-------
+('D1', 'C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\LED_SMD.3dshapes\\LED_Avago_PLCC4_3.2x2.8mm_CW.step')
+-------
+NUM of 3D missing models:1
+checked extensions ['.stp', '.step', '.stpZ']
