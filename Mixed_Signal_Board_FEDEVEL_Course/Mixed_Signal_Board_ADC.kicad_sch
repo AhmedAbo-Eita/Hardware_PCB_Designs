@@ -3865,131 +3865,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 100.33 120.65 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "158b02e8-e735-4aee-9294-d6d9e831ea55")
-		(property "Reference" "C310"
-			(at 101.6 114.3 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 102.87 116.84 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 104.14 119.6848 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
-			(at 100.33 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_PN" "C28233"
-			(at 100.33 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" "CL21B104KCFNNNE"
-			(at 100.33 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Assembled" "Yes"
-			(at 100.33 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating_Temperature" "125"
-			(at 100.33 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fc0521c9-1d9f-45fa-a3a8-b9558a97f827")
-		)
-		(pin "2"
-			(uuid "93f1fac5-a0a5-4cce-98c1-39b0695d446d")
-		)
-		(instances
-			(project "Mixed_Signal_Board_FEDEVEL_Course"
-				(path "/275c6be1-327e-4739-aa63-a3cb51a55660/45e74f2c-55e5-4c86-aacc-74e9acddcbc3"
-					(reference "C310")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 41.91 66.04 90)
 		(unit 1)
@@ -5444,131 +5319,6 @@
 			(project "Mixed_Signal_Board_FEDEVEL_Course"
 				(path "/275c6be1-327e-4739-aa63-a3cb51a55660/45e74f2c-55e5-4c86-aacc-74e9acddcbc3"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 182.88 123.19 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "43485b1b-a9a5-4474-a803-ba451ecd3e93")
-		(property "Reference" "C314"
-			(at 184.15 116.84 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 185.42 119.38 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 186.69 122.2248 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
-			(at 182.88 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 182.88 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_PN" "C28233"
-			(at 182.88 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" "CL21B104KCFNNNE"
-			(at 182.88 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Assembled" "Yes"
-			(at 182.88 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating_Temperature" "125"
-			(at 182.88 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8ef17d64-9ae6-4d46-9b30-f25e78fbb43d")
-		)
-		(pin "2"
-			(uuid "67d39cf6-d08f-457b-aff7-f54c162d8182")
-		)
-		(instances
-			(project "Mixed_Signal_Board_FEDEVEL_Course"
-				(path "/275c6be1-327e-4739-aa63-a3cb51a55660/45e74f2c-55e5-4c86-aacc-74e9acddcbc3"
-					(reference "C314")
 					(unit 1)
 				)
 			)
@@ -8521,6 +8271,129 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 100.33 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8c056b4-4971-4847-b2e1-200b6a3c0693")
+		(property "Reference" "C310"
+			(at 100.33 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 100.33 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 104.14 119.6848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C14663.pdf?spm=wm.sxq.inf.ggs___wm.ssy.bg.0.xh&lcsc_vid=QlkPBVwCEVENBgdQFgJbXwVVTwUMVVBWEwNcVVxeTlUxVlNRQFBfVFFRR1hXVzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slT1ZdU0oOAwwC"
+			(at 100.33 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating_Temperature" "125"
+			(at 100.33 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PN" "C14663"
+			(at 100.33 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembled" "Yes"
+			(at 100.33 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "CC0603KRX7R9BB104"
+			(at 100.33 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00a0a8ac-967d-4d34-85c1-2928ea6dab68")
+		)
+		(pin "2"
+			(uuid "dec1162b-9bc9-4351-845d-b601bf62e673")
+		)
+		(instances
+			(project "Mixed_Signal_Board_FEDEVEL_Course"
+				(path "/275c6be1-327e-4739-aa63-a3cb51a55660/45e74f2c-55e5-4c86-aacc-74e9acddcbc3"
+					(reference "C310")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 142.24 143.51 0)
 		(unit 1)
@@ -8805,6 +8678,129 @@
 			(project "Mixed_Signal_Board_FEDEVEL_Course"
 				(path "/275c6be1-327e-4739-aa63-a3cb51a55660/45e74f2c-55e5-4c86-aacc-74e9acddcbc3"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 182.88 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8f26132-243b-4afb-a013-26e61358476d")
+		(property "Reference" "C314"
+			(at 182.88 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 182.88 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 186.69 122.2248 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C14663.pdf?spm=wm.sxq.inf.ggs___wm.ssy.bg.0.xh&lcsc_vid=QlkPBVwCEVENBgdQFgJbXwVVTwUMVVBWEwNcVVxeTlUxVlNRQFBfVFFRR1hXVzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slT1ZdU0oOAwwC"
+			(at 182.88 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 182.88 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating_Temperature" "125"
+			(at 182.88 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PN" "C14663"
+			(at 182.88 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembled" "Yes"
+			(at 182.88 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "CC0603KRX7R9BB104"
+			(at 182.88 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74ab2c86-fb43-456a-b6ef-431dd7ec6131")
+		)
+		(pin "2"
+			(uuid "3a7d9272-5a96-4c6f-97c0-b94e65aa159f")
+		)
+		(instances
+			(project "Mixed_Signal_Board_FEDEVEL_Course"
+				(path "/275c6be1-327e-4739-aa63-a3cb51a55660/45e74f2c-55e5-4c86-aacc-74e9acddcbc3"
+					(reference "C314")
 					(unit 1)
 				)
 			)
