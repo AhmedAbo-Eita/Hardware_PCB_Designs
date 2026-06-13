@@ -10798,18 +10798,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "Package"
-			(at 62.23 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Price" "None"
 			(at 62.23 81.28 0)
 			(hide yes)

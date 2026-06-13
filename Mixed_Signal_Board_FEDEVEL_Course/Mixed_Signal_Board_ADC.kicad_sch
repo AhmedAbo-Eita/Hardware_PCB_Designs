@@ -4228,18 +4228,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "SOT-23-3 Texas Instruments"
-			(at 81.28 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "OC_FARNELL" "1470325"
 			(at 81.28 66.04 0)
 			(hide yes)
@@ -8115,18 +8103,6 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at 148.59 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "VSSOP-10 Texas Instruments"
 			(at 148.59 82.55 0)
 			(hide yes)
 			(show_name no)
