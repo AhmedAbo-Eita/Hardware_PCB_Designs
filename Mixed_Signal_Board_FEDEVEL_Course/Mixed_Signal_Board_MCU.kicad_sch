@@ -5401,16 +5401,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 95.25) (xy 92.71 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "012ec189-d95f-4171-aec0-184299bce587")
-	)
-	(wire
-		(pts
 			(xy 69.85 67.31) (xy 80.01 67.31)
 		)
 		(stroke
@@ -5478,16 +5468,6 @@
 			(type default)
 		)
 		(uuid "08af9dc0-53f8-4bc3-b0ca-aeb499914250")
-	)
-	(wire
-		(pts
-			(xy 90.17 115.57) (xy 92.71 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a7536ab-322c-49b6-b7c3-9fad290c9c6a")
 	)
 	(wire
 		(pts
@@ -5728,6 +5708,16 @@
 			(type default)
 		)
 		(uuid "28695e96-9637-48c3-b494-f93f48633890")
+	)
+	(wire
+		(pts
+			(xy 90.17 115.57) (xy 92.71 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ad4b030-9b3d-4760-b3b0-8ecdc75a68f7")
 	)
 	(wire
 		(pts
@@ -7265,7 +7255,7 @@
 	)
 	(hierarchical_label "DAC_NCLR"
 		(shape output)
-		(at 91.44 95.25 180)
+		(at 90.17 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7276,7 +7266,7 @@
 	)
 	(hierarchical_label "DAC_NLDAC"
 		(shape output)
-		(at 90.17 115.57 180)
+		(at 92.71 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
