@@ -1,0 +1,292 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "10.0.5"
+    },
+    "CreationDate": "2026-08-23T18:13:50+08:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "BLDC_MC_V1.0",
+      "GUID": "424c4443-5f4d-4435-9f56-312e302e6b69",
+      "Revision": "V1.0"
+    },
+    "Size": {
+      "X": 123.55,
+      "Y": 58.05
+    },
+    "LayerNumber": 8,
+    "BoardThickness": 1.584,
+    "Finish": "None",
+    "ImpedanceControlled": true
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.1524,
+      "PadToTrack": 0.1524,
+      "TrackToTrack": -0.0,
+      "MinLineWidth": 0.1016,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.1524,
+      "PadToTrack": 0.1524,
+      "TrackToTrack": -0.0,
+      "MinLineWidth": 0.1725,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "BLDC_MC_V1.0-L1_Top_SIG.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BLDC_MC_V1.0-L2_In1_GND.gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BLDC_MC_V1.0-L3_In2_SIG.gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BLDC_MC_V1.0-L4_In3_PWR.gbr",
+      "FileFunction": "Copper,L4,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BLDC_MC_V1.0-L5_In4_GND.gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BLDC_MC_V1.0-L6_In5_ASIG.gbr",
+      "FileFunction": "Copper,L6,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BLDC_MC_V1.0-L5_In6_GND.gbr",
+      "FileFunction": "Copper,L7,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BLDC_MC_V1.0-L1_Bot_SIG.gbr",
+      "FileFunction": "Copper,L8,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BLDC_MC_V1.0-F_Adhesive.gbr",
+      "FileFunction": "Glue,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BLDC_MC_V1.0-B_Adhesive.gbr",
+      "FileFunction": "Glue,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BLDC_MC_V1.0-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BLDC_MC_V1.0-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BLDC_MC_V1.0-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BLDC_MC_V1.0-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BLDC_MC_V1.0-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "BLDC_MC_V1.0-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "BLDC_MC_V1.0-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Black",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "L1_Top_SIG"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.094,
+      "Material": "FR4",
+      "DielectricConstant": "4.16",
+      "LossTangent": "0.02",
+      "Name": "L1_Top_SIG/L2_In1_GND",
+      "Notes": "Type: dielectric layer 1 (from L1_Top_SIG to L2_In1_GND)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.03,
+      "Name": "L2_In1_GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.25,
+      "Material": "FR4",
+      "DielectricConstant": "4.6",
+      "LossTangent": "0.02",
+      "Name": "L2_In1_GND/L3_In2_SIG",
+      "Notes": "Type: dielectric layer 2 (from L2_In1_GND to L3_In2_SIG)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.03,
+      "Name": "L3_In2_SIG"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.094,
+      "Material": "FR4",
+      "DielectricConstant": "4.16",
+      "LossTangent": "0.02",
+      "Name": "L3_In2_SIG/L4_In3_PWR (1/2)",
+      "Notes": "Type: dielectric layer 3 - 1/2 (from L3_In2_SIG to L4_In3_PWR)"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.094,
+      "Material": "FR4",
+      "DielectricConstant": "4.16",
+      "LossTangent": "0.02",
+      "Name": "L3_In2_SIG/L4_In3_PWR (2/2)",
+      "Notes": "Type: dielectric layer 3 - 2/2 (from L3_In2_SIG to L4_In3_PWR)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.03,
+      "Name": "L4_In3_PWR"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.25,
+      "Material": "FR4",
+      "DielectricConstant": "4.6",
+      "LossTangent": "0.02",
+      "Name": "L4_In3_PWR/L5_In4_GND",
+      "Notes": "Type: dielectric layer 4 (from L4_In3_PWR to L5_In4_GND)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.03,
+      "Name": "L5_In4_GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.094,
+      "Material": "FR4",
+      "DielectricConstant": "4.16",
+      "LossTangent": "0.02",
+      "Name": "L5_In4_GND/L6_In5_ASIG (1/2)",
+      "Notes": "Type: dielectric layer 5 - 1/2 (from L5_In4_GND to L6_In5_ASIG)"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.094,
+      "Material": "FR4",
+      "DielectricConstant": "4.16",
+      "LossTangent": "0.02",
+      "Name": "L5_In4_GND/L6_In5_ASIG (2/2)",
+      "Notes": "Type: dielectric layer 5 - 2/2 (from L5_In4_GND to L6_In5_ASIG)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.03,
+      "Name": "L6_In5_ASIG"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.25,
+      "Material": "FR4",
+      "DielectricConstant": "4.6",
+      "LossTangent": "0.02",
+      "Name": "L6_In5_ASIG/L5_In6_GND",
+      "Notes": "Type: dielectric layer 6 (from L6_In5_ASIG to L5_In6_GND)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.03,
+      "Name": "L5_In6_GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.094,
+      "Material": "FR4",
+      "DielectricConstant": "4.16",
+      "LossTangent": "0.02",
+      "Name": "L5_In6_GND/L1_Bot_SIG",
+      "Notes": "Type: dielectric layer 7 (from L5_In6_GND to L1_Bot_SIG)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "L1_Bot_SIG"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Black",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}

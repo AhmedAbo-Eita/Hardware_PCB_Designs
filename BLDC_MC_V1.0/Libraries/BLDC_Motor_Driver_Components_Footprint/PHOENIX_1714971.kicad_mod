@@ -1,0 +1,225 @@
+(footprint "PHOENIX_1714971"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.175 -13.635 0)
+		(layer "F.SilkS")
+		(uuid "f272d576-4254-400a-a2b4-d2cfffd73e79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PHOENIX_1714971"
+		(at 9.525 1.115 0)
+		(layer "F.Fab")
+		(uuid "04e9a749-39dc-4bc4-ac7e-6954040913da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4458861-74d2-4c79-8412-15159c7daa72")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73af2dfd-de69-4d5d-93df-0424dcded35e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 -12.52)
+		(end 0 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74a53e7b-a27b-4ba0-89e2-21c27f069f4a")
+	)
+	(fp_line
+		(start 0 0)
+		(end 19.04 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91d84794-0354-4582-b247-79b851e1e968")
+	)
+	(fp_line
+		(start 19.04 -12.52)
+		(end 0 -12.52)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed17225c-cb0d-4a84-abe5-bc97854a13ad")
+	)
+	(fp_line
+		(start 19.04 0)
+		(end 19.04 -12.52)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "723befe3-ac4f-4d08-a644-b4529887e27e")
+	)
+	(fp_circle
+		(center -1.1 -7.9)
+		(end -1 -7.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2c00369f-aec1-4c80-a2e7-56259a0360db")
+	)
+	(fp_line
+		(start -0.82 -12.77)
+		(end -0.82 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "95d01c8c-28ae-43c6-b011-3a6ddf8dcb15")
+	)
+	(fp_line
+		(start -0.82 0.25)
+		(end 19.29 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aa015a98-ddc2-4aa4-8568-6066928742c9")
+	)
+	(fp_line
+		(start 19.29 -12.77)
+		(end -0.82 -12.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "83b72eda-d86d-4d40-bfae-f137f131c182")
+	)
+	(fp_line
+		(start 19.29 0.25)
+		(end 19.29 -12.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f6c71f41-e6c7-4364-b200-dfe34115eee6")
+	)
+	(fp_line
+		(start 0 -12.52)
+		(end 0 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "83818120-78c1-452b-9384-9c2ef31a5b3a")
+	)
+	(fp_line
+		(start 0 0)
+		(end 19.04 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1892fd49-fd67-40ab-856b-d57b48aa49f5")
+	)
+	(fp_line
+		(start 19.04 -12.52)
+		(end 0 -12.52)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff4226af-104a-42ce-8294-ff213e92c160")
+	)
+	(fp_line
+		(start 19.04 0)
+		(end 19.04 -12.52)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b345d9ef-6255-400a-89d1-25ab2e819fef")
+	)
+	(fp_circle
+		(center -1.1 -7.9)
+		(end -1 -7.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "feb27681-eee8-49a0-bc5d-d67cfd2e757b")
+	)
+	(pad "1" thru_hole rect
+		(at 4.76 -7.92)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "55c70e16-c858-4a59-ae34-11a2a36632ef")
+	)
+	(pad "2" thru_hole circle
+		(at 14.28 -7.92)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "cdb289e3-6260-482d-90a4-ee3ce3139df9")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_3d_Model/1714971.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

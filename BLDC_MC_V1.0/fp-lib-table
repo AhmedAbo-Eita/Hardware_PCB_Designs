@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BLDC_Motor_Driver_Components_Footprint")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Footprint")(options "")(descr ""))
+)
